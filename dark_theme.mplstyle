@@ -1,0 +1,41 @@
+# Seaborn common parameters augmented as personal dark theme
+# .15 = dark_gray
+# .8 = light_gray
+text.color: white
+patch.edgecolor: white
+
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+xtick.direction: out
+ytick.direction: out
+xtick.color: white
+ytick.color: white
+axes.axisbelow: True
+image.cmap: Greys
+font.family: sans-serif
+font.sans-serif: Arial, Liberation Sans, DejaVu Sans, Bitstream Vera Sans, sans-serif
+grid.linestyle: -
+lines.solid_capstyle: round
+
+# Seaborn dark parameters
+axes.grid: False
+axes.facecolor: .10
+axes.edgecolor: white
+axes.labelcolor: white
+axes.prop_cycle: cycler('color', ['9A72AC', 'CF5044','29ABCA' ,  'CD853F', '1C758A', '94424F', '83C167', 'E8C11C', '49A88F', 'cf5044'])
+#axes.linewidth: 0
+grid.color: white
+#xtick.major.size: 0
+#ytick.major.size: 0
+#xtick.minor.size: 0
+#ytick.minor.size: 0
+
+#3b1b color cycle steal
+
+#Figure parameters
+figure.facecolor: .15
+figure.edgecolor: .15
+
+savefig.facecolor: .15
+savefig.edgecolor: .15 
